@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: #008CBA;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.calculator {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.calculator div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.calculator label {
+  width: 150px;
+}
+
+.calculator input,
+.calculator select {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.calculator button {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.result span:first-child {
+  flex-basis: 70%;
+}
