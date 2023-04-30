@@ -55,3 +55,12 @@ h1 {
 .result span:first-child {
   flex-basis: 70%;
 }
+
+.calculator a {
+    margin: 20px 0;
+    padding: 8px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    text-decoration: none;
+  }
